@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';      // Father of all children components
+import App from './containers/App';      // Father of all children components
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 

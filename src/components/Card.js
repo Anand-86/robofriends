@@ -7,8 +7,8 @@ const Card = ({ name, email, id }) => {  // Destructuring.
         <div className='tc bg-light-green dib br3 pd3 ma2 grow bw2 shadow-5'>
             <img alt='robots' src={`https://robohash.org/${id}?size=200x200`} />
             <div>
-                <h2 className='ma1'>{name}</h2>
-                <p className='ma1'>{email}</p>
+                <h2>{name}</h2>
+                <p>{email}</p>
             </div>
         </div>
     );
